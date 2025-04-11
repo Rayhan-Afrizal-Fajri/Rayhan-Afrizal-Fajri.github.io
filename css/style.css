@@ -725,7 +725,7 @@ a:focus {
     display: inline-block;
     height: 35px;
     padding: 10px;
-    color: #666666;
+    color: white;
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
@@ -756,6 +756,7 @@ a:focus {
 }
 
 .portfolio .portfolio-item figure img {
+    border-radius: 7px;
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
